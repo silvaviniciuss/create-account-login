@@ -9,4 +9,4 @@ CREATE TABLE
         created_at TEXT DEFAULT (DATETIME()) NOT NULL
     );
 
-select * from users;
+insert into users (id,nickname,email,password,role) values ('001', 'bandreid', 'bandreid@email.com', '123456', 'ADMIN');
